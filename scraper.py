@@ -28,12 +28,10 @@ for url in test_urls:
 
     for question, options in zip(questions, answers):
         d = [f"{question}\n"]
-        correct = ""
         for (op, isCorrect), i in zip(options, index):
             if isCorrect:
-                correct = op
+                d.append(op.strip())
             d[0] = d[0] + f"{i}. {op.strip()}\n"
-        d.append(correct.strip())
         data.append(d)
 
     with open(f"{name}.csv", "w", newline='', encoding='utf-8') as f:
