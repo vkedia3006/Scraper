@@ -1,2 +1,2 @@
 # Scraper
-Python scraper to get quiz for Canadian citizen quiz from https://www.apnatoronto.com/canadian-citizenship-test-practice/
+Python scraper to get quiz questions and answers in excel from Canadian citizen quiz https://www.apnatoronto.com/canadian-citizenship-test-practice/
